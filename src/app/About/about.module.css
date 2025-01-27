@@ -1,0 +1,395 @@
+.ul{
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: xx-large;
+  }
+  .container{
+
+        font-size:xx-large;
+        color: #470000;
+    
+      
+  }
+
+  .navList {
+    background-color: #d37373;
+    font-family: serif;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content :center;
+    gap: 30px;
+    align-items: center;
+  }
+
+.aboutcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  max-width:fit-content;
+  
+
+}
+
+.aboutcontainer h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #470000;
+}
+
+.aboutcontainer p {
+  padding: 40px;
+  text-align: center;
+  font-size:x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #470000;
+}
+
+  .link {
+    text-decoration: none;
+    color:#470000;
+  }
+  
+  .link:hover {
+    text-decoration:#d37373;
+    color: #cab2b2;    
+}
+
+.container{
+  
+  justify-content: center;
+  text-align: center;
+}
+.container h1{
+    color: #470000;
+    font-size: 80px;
+    font-family: initial;
+    padding: 5px;
+    text-align:center;
+    justify-content :center;
+    
+}
+
+.container p{
+    color: #470000;
+    font-size: 40px;
+    font-family: initial;
+    padding: 5px;
+    text-align:center;
+    justify-content :center;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+.contactContainer h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: #470000;
+  text-align: center;
+  font-weight: 700;
+}
+.contactContainer h2 {
+  font-size: 25px;
+  color: #d37373;
+  text-align: center;
+  font-weight: 600;
+}
+.contactContainer h3 {
+  font-size: 25px;
+  margin: 10px 0;
+  color: #d37373;
+  text-align: center;
+  font-weight: 700;
+}
+.contactContainer p {
+  font-size: 20px;
+  color: #470000;
+  text-align: center;
+  margin: 5px 0;
+}
+.form-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh; 
+  margin: 0 auto; 
+  padding: 20px; 
+  box-sizing: border-box; 
+  background-color: #f9f9f9;
+}
+
+.form-container input button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  line-height: 25px;
+}
+.form-container fieldset {
+  border: none;
+  margin: 10px 0;
+  padding: 10px;
+}
+.form-container textarea {
+  height: 100px;
+  resize: none;
+  line-height: 25px
+}
+
+.section{
+  color: #470000;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  line-height: 25px
+}
+
+
+.submitButton {
+  cursor: pointer;       
+  background-color: #470000; 
+  color: white;            
+  border: none;            
+  padding: 10px; 
+  font-family: 'Courier New', Courier, monospace;     
+  font-size: bold;   
+  font-weight: 500;  
+  border-radius: 5px; 
+  align-items: center;
+  justify-content: center;
+}
+.submitButton:hover{
+  background-color: #d37373;  
+  color: black;
+
+
+}
+
+.header ul{
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.title {
+  font-size:xx-large;
+  color: #470000;
+
+}
+
+.navList {
+  background-color: #d37373;
+  font-family: serif;
+
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content :center;
+  gap: 30px;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color:#470000;
+}
+
+.link:hover {
+  text-decoration:#d37373;
+  color: #cab2b2;
+  
+  
+}
+
+
+.Hero {
+  color:  #470000;
+  padding: 40px;
+  text-align: center;
+  font-size:x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Hero h1{
+  color: #470000;
+  font-size: 80px;
+  font-family: initial;
+  padding: 5px;
+  text-align:center;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.Hero h4{
+  color: #470000;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Hero h3{
+  color: black;
+  font-size: 40px;
+  justify-content: left;
+  text-align: left;
+
+}
+
+.Hero h2{
+  color: #470000;
+  font-size: 50px;
+  font-weight: 600;
+}
+.Hero img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 10px lightslategray;
+  display: block;
+  margin: 0 auto;
+
+}
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .Hero button{
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 15px;
+    margin-left: 40% ;
+    background-color:  #d37373;
+    color:  #470000;
+    display:grid   
+  }
+
+  .Hero button:hover{
+    background-color:  #5f2d2d;
+    color: wheat;
+  }
+  @media (max-width: 1024px) {
+    .Hero button {
+      width: 30%; 
+      font-size: 14px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Hero button {
+      width: 40%; 
+      font-size: 12px; 
+      padding: 8px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Hero button {
+      width: 60%; 
+      font-size: 10px; 
+      margin: 10px auto; 
+    }
+  }
+
+
+.Footer {
+  background-color: #D37373;
+  color:#470000;
+  padding: 2px;
+  text-align: center;
+  font-size: x-large;
+}
+.Education {
+  padding: 20px; 
+  margin: 20px auto; 
+  font-family: Arial, sans-serif; 
+}
+.Education h1{
+font-size: 60px;
+
+color: #470000;
+text-align: center;
+font-weight: 700;
+}
+.Education p {
+  font-size: 20px;
+  font-weight:600;
+  color: #470000;
+  line-height: 1.6;
+  margin: 0;
+}
+.Expertise{
+  padding: 20px; 
+  margin: 20px auto; 
+  width: 100%;
+  font-family: Arial, sans-serif; 
+  text-align: left; 
+}
+
+
+.Expertise h2{
+  font-size:60px;
+  color:#470000; 
+  margin-bottom: 10px; 
+  text-align: center; 
+  justify-content: center;
+  font-weight: 700;
+
+}
+
+.Expertise p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #470000;
+  line-height: 1.6;
+  margin: 0; 
+}
+
+.skills{
+  padding: 20px; 
+  margin: 20px auto; 
+  width: 100%;
+  font-family: Arial, sans-serif;
+  text-align: left; 
+}
+
+.skills h2{
+  font-size:60px;
+  color:#470000; 
+  margin-bottom: 10px; 
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+
+}
+
+.skills p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #470000;
+  line-height: 1.6; 
+  margin: 0;
+}
+
+
